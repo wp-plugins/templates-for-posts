@@ -4,11 +4,17 @@ Plugin Name: Templates for Posts
 Plugin URI: http://wordpress.org/extend/plugins/templates-for-posts/
 Description: The same as page templates, but for posts.
 Author: Nikolay Bachiyski
-Version: 1.0
+Version: 1.1-budev
 Author URI: http://nikolay.bg/
+Text Domain: templates-for-posts
 */
 
 class PostTemplates {
+	
+	function init() {
+		load_plugin_textdomain('templates-for-posts', false, 'templates-for-posts');
+	}
+	
 	function template_redirect() {
 		if (is_single()) {
 			$page_template = get_page_template();
@@ -50,6 +56,7 @@ class PostTemplates {
 };
 
 $__post_templates = & new PostTemplates;
+add_action('init', array(&$__post_templates, 'init'));
 add_action('template_redirect', array(&$__post_templates, 'template_redirect'));
 add_action('save_post', array(&$__post_templates, 'save_post'), 10, 2);
 if (is_admin()) {

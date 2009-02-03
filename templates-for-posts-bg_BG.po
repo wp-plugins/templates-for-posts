@@ -1,0 +1,44 @@
+# Bulgarian translations for PACKAGE package.
+# Copyright (C) 2009 Nikolay Bachiyski
+# This file is distributed under the same license as the PACKAGE package.
+# Николай Бачийски <>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/templates-for-posts\n"
+"POT-Creation-Date: 2009-02-03 19:42+0000\n"
+"PO-Revision-Date: 2009-02-03 21:51+0200\n"
+"Last-Translator: Николай Бачийски <>\n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates-for-posts.php:37 templates-for-posts.php:47
+msgid "Post Template"
+msgstr "Шаблон за публикация"
+
+#: templates-for-posts.php:39
+msgid "Default Template"
+msgstr "Шаблон по подразбиране"
+
+#. Plugin Name of an extension
+msgid "Templates for Posts"
+msgstr "Шаблони за публикации"
+
+#. Plugin URI of an extension
+msgid "http://wordpress.org/extend/plugins/templates-for-posts/"
+msgstr "http://wordpress.org/extend/plugins/templates-for-posts/"
+
+#. Description of an extension
+msgid "The same as page templates, but for posts."
+msgstr "Същите като шаблоните за страници, но за публикации."
+
+#. Author of an extension
+msgid "Nikolay Bachiyski"
+msgstr "Николай Бачийски"
+
+#. Author URI of an extension
+msgid "http://nikolay.bg/"
+msgstr ""

@@ -19,5 +19,6 @@ You can find [how to your own templates](http://codex.wordpress.org/Pages#Creati
 
 This section describes how to install the plugin and get it working.
 
-1. Upload `templates-for-posts.php` to the `/wp-content/plugins/` directory
+1. Unzip `templates-for-posts-x.x.zip`
+1. Upload the `templates-for-posts` directory (not its contents, the whole directory) to `/wp-content/plugins/`
 1. Activate the plugin through the `Plugins` menu in WordPress
