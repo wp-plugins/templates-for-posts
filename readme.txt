@@ -13,7 +13,7 @@ In WordPress you can set individual templates for pages, which allows you to eas
 
 After installtion you will be able to choose a template for each post the same way you do with pages.
 
-You can find [how to your own templates](http://codex.wordpress.org/Pages#Creating_Your_Own_Page_Templates) in the Codex.
+You can find [how to create your own templates](http://codex.wordpress.org/Pages#Creating_Your_Own_Page_Templates) in the Codex.
 
 == Installation ==
 
